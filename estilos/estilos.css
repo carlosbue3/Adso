@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(207, 141, 78);
+    text-align: center;
+    border: solid;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+
+}
+#contenedor{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}
+.img{
+   width: 10%;
+   height: auto;
+   margin-top: 20px;
+}
+header{
+    background-color: aquamarine;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 10px;
+    border: solid;
+}
+#record{
+    background-color:rgb(235, 134, 134);
+    margin:auto
+}
+.alma{
+    background-color:rgb(235, 134, 134);
+    width: 50%;
+    height: 40%;
+    
+
+}
