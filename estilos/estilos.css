@@ -2,17 +2,16 @@ body{
     background-color: rgb(207, 141, 78);
     text-align: center;
     border: solid;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+    margin: auto;
 
 }
 #contenedor{
     display: grid;
     grid-template-columns: 2fr 2fr;
+    background-color: rgb(255, 255, 255);
     
 }
-.img{
+.sex{
    width: 10%;
    height: auto;
    margin-top: 20px;
@@ -26,12 +25,25 @@ header{
 }
 #record{
     background-color:rgb(235, 134, 134);
-    margin:auto
+    margin:auto;
+}
+nav{
+    background-color:rgb(235, 134, 134);
+    width: 90%;
+    height: 90%;
+    margin:auto;
+    border: solid;
+
+
+    
+
 }
 .alma{
     background-color:rgb(235, 134, 134);
-    width: 50%;
-    height: 40%;
+    width: 60%;
+    height:88%;
     
+    position: relative; top: 20px; left: auto; right:auto;     
+   
 
 }
