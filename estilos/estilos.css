@@ -1,7 +1,7 @@
 body{
-    background-color: rgb(207, 141, 78);
+    background-color: rgb(150, 247, 166);
     text-align: center;
-    border: solid;
+    width: 97%;
     margin: auto;
 
 }
@@ -10,6 +10,7 @@ body{
     grid-template-columns: 2fr 2fr;
     background-color: rgb(255, 255, 255);
     height: auto;
+    margin-bottom: 8px;
     
     
 }
@@ -19,11 +20,9 @@ body{
    margin-top: 20px;
 }
 header{
-    background-color: aquamarine;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: 20px;
-    border: solid;
+    background-color: rgb(255, 255, 255);
+    width:auto;
+    
 }
 #record{
     background-color:rgb(238, 159, 139);
@@ -32,8 +31,33 @@ header{
 nav{
     background-color:rgb(238, 159, 139);
     width: 90%;
-    height: 90%;
-    margin:auto
+    height: 80%;
+    margin:auto;
     
 
 }
+#foo{
+ 
+}
+
+#contenedord{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: rgb(255, 255, 255);
+    height: auto;   
+    margin-top: 20px;
+    margin: left 20px;
+    height: 100%;
+    
+    
+    
+
+}
+#diseñod{
+    height: 239px;
+    background-color: aliceblue;
+}
+.headerr{
+    background-color: aqua;
+}       
+
